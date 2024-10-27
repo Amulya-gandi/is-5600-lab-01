@@ -14,3 +14,67 @@ body {
 }
 
 /* add styles here */
+body {
+   font-family: 'Open Sans', sans-serif;
+   margin: 0; /* Remove default margin from the body */
+   padding: 0; /* Remove default padding from the body */
+   background-color: #f0f4f8; /* Set a light background color */
+ }
+ 
+ h1, h2, h3 {
+   margin-bottom: 1rem; /* Add some space below headings */
+ }
+ 
+ p {
+   font-size: 16px; /* Set a base font size for paragraphs */
+   line-height: 1.5; /* Improve readability with line spacing */
+ }
+ #topbar {
+   background-color: #2c3e50; /* Set background color for the navigation bar */
+   color: #fff; /* Set text color to white */
+   padding: 1rem 2rem; /* Add padding for better spacing */
+ }
+ 
+ #topbar li {
+   display: inline-block; /* Display navigation items inline */
+   margin-right: 1rem; /* Add space between navigation items */
+ }
+ 
+ #topbar a {
+   color: inherit; /* Inherit the text color from the navigation bar */
+   text-decoration: none; /* Remove underline from links */
+ }
+ 
+ #topbar a:hover {
+   color: #f0f4f8; /* Change link color on hover */
+ }
+ header {
+   text-align: center; /* Center the content in the header */
+   padding: 2rem 0; /* Add padding above and below the content */
+ }
+ 
+ header h2 {
+   font-size: 2rem; /* Increase font size for the main heading */
+   margin-bottom: 1rem; /* Add space below the heading */
+ }
+ 
+ header p {
+   font-size: 1.2rem; /* Increase font size for the description */
+ }
+ .card {
+   display: inline-block; /* Display cards side-by-side */
+   margin: 1rem; /* Add space between cards */
+   width: 30%; /* Set a width for each card */
+   background-color: #fff; /* Set a white background for cards */
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+ }
+ 
+ .card img {
+   width: 100%; /* Set the image to fill the card width */
+ }
+ 
+ .card div {
+   padding: 1rem;
+   
+
+
